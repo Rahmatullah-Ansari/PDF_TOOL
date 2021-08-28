@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#3CB0D0"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:layout_height="250dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/new_pdf_page"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/pdf_bg"
+            android:contentDescription="@null"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pdf3" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/new_pdf_page"
+            android:background="@drawable/label_bg">
+
+            <TextView
+                android:id="@+id/page_no"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/left_bg"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/page_no"
+                android:background="@drawable/right_bg"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="04:05:45 PM"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PDF TOOL</string>
+    <string name="from">From</string>
+    <string name="crazy_programmer">Crazy Programmer</string>
+    <string name="pdf_name">Pdf name</string>
+    <string name="search">search</string>
+    <string name="app_size_b">%1$.2f B</string>
+    <string name="app_size_kib">%1$.2f KiB</string>
+    <string name="app_size_mib">%1$.2f MiB</string>
+    <string name="app_size_gib">%1$.2f GiB</string>
+</resources>

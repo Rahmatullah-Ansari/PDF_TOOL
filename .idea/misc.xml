@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/drawable/bg.xml" value="0.23125" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/drawable/bubble.xml" value="0.23125" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/drawable/label_bg.xml" value="0.23125" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/drawable/left_bg.xml" value="0.23125" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/drawable/option1.xml" value="0.23125" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/drawable/right_bg.xml" value="0.23125" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/activity_create_pdf.xml" value="0.20132180986273512" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/activity_show_image.xml" value="0.22" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/activity_view_pdf.xml" value="0.20132180986273512" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/new_pdf_item.xml" value="0.25" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/pdf_item.xml" value="0.33482142857142855" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/layout/show_menu.xml" value="0.20132180986273512" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/menu/item_option.xml" value="0.20132180986273512" />
+        <entry key="..\:/Androd Project/PdfTool/app/src/main/res/menu/option.xml" value="0.20625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
