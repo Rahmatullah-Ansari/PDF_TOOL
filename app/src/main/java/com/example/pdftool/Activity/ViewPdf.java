@@ -22,8 +22,11 @@ public class ViewPdf extends AppCompatActivity {
         file_path=getIntent().getStringExtra("path");
         File file=new File(file_path);
         Objects.requireNonNull(getSupportActionBar()).setTitle(file.getName());
-        Uri uri=Uri.fromFile(file);
-        binding.pdfview.fromUri(uri).load();
+        binding.pdfview
+                .fromFile(file)
+                .defaultPage(0)
+                .enableSwipe(true)
+                .load();
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
